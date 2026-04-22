@@ -19,7 +19,7 @@ speech_config = speechsdk.SpeechConfig(subscription=speech_key, region=service_r
 # speech_config.speech_synthesis_voice_name = "en-US-BrandonMultilingualNeural"
 speech_config.speech_synthesis_voice_name = "en-GB-MaisieNeural"
 
-text = "Hi, this is Brandon Multilingual"
+text = "Hi, this is Brandon Multilingual."
 
 # use the default speaker as audio output.
 speech_synthesizer = speechsdk.SpeechSynthesizer(speech_config=speech_config)
